@@ -1,0 +1,112 @@
+html {
+  /* margin:0; */
+  /* padding:0; */
+  font-family: Helvetica Neue;
+  /* background-color: #F2F2F2; */
+
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  /* max-width: 1080px; */
+  position: relative;
+  margin:0;
+  padding:0;
+  left:0px;
+
+}
+
+a{
+  text-decoration:none;
+  cursor: help;
+}
+
+a:hover{
+  color:white;
+  /* cursor: grabbing; */
+  cursor: zoom-in;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:visited:hover{
+  color:white;
+}
+
+
+.back{
+  position:fixed;
+  left:10px;
+  bottom:10px;
+}
+
+
+.b-3{
+  font-weight: bold;
+  font-size: 200px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:-250px; */
+  /* bottom:1000px; */
+}
+
+.b-3 .next{
+  right:1100px;
+}
+
+.b-4{
+  font-size: 350px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:-250px; */
+  /* bottom:1000px; */
+}
+
+.b-4 .next{
+  right:1040px;
+}
+
+.numbertext {
+  color: black;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -25px;
+  left:20px;
+  font-family: Helvetica Neue;
+}
+
+.prev, .next {
+  cursor: pointer;
+  /* cursor: url('http://www.rw-designer.com/cursor-extern.php?id=88738'),default; */
+  position:fixed;
+  top: 0px;
+  color: red;
+  /* font-size: 700px; */
+  transition: 0.6s ease;
+  /* width:50%; */
+  /* height:100%; */
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: grey;
+  /* opacity: 0; */
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10px;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

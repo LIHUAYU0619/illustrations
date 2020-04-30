@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>( )</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<style>
+
+.pic{
+  width:800px;
+}
+
+  </style>
+
+<body>
+
+		<div class="slideshow-container">
+
+			<div class="mySlides1">
+				<div class="numbertext">1 / 12 </div>
+				<img src="img/( )/1.png" style="height:400px">
+			</div>
+
+			<div class="mySlides1">
+				<div class="numbertext">2 / 12</div>
+				<img src="img/( )/3.png" style="height:400px">
+			</div>
+
+			<div class="mySlides1">
+				<div class="numbertext">3 / 12</div>
+				<img src="img/( )/4.png" style="height:400px">
+			</div>
+
+			<div class="mySlides1">
+				<div class="numbertext">4 / 12</div>
+				<img src="img/( )/5.png" style="height:400px">
+			</div>
+
+			<div class="mySlides1">
+				<div class="numbertext">5 / 12</div>
+				<img src="img/( )/6.png" style="height:400px">
+			</div>
+
+			<div class="mySlides1">
+				<div class="numbertext">6 / 12</div>
+				<img src="img/( )/7.png" style="height:400px">
+			</div>
+
+      <div class="mySlides1">
+        <div class="numbertext">7 / 12</div>
+        <img src="img/( )/8.png" style="height:400px">
+      </div>
+
+      <div class="mySlides1">
+        <div class="numbertext">8 / 12</div>
+        <img src="img/( )/9.png" style="height:400px">
+      </div>
+
+      <div class="mySlides1">
+        <div class="numbertext">9 / 12</div>
+        <img src="img/( )/10.png" style="height:400px">
+      </div>
+
+      <div class="mySlides1">
+        <div class="numbertext">10 / 12</div>
+        <img src="img/( )/11.png" style="height:400px">
+      </div>
+
+      <div class="mySlides1">
+        <div class="numbertext">11 / 12</div>
+        <img src="img/( )/12.png" style="height:400px">
+      </div>
+
+      <div class="mySlides1">
+        <div class="numbertext">12 / 12</div>
+        <img src="img/( )/13.png" style="height:400px">
+      </div>
+
+			<div class="b-3">
+			<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+		</div>
+
+		</div>
+
+	</br>
+</br>
+<!--
+		<div class="slideshow-container">
+
+			<div class="mySlides2">
+				<div class="numbertext">1 / 1 </div>
+				<img src="img/happy/2.jpg" style="height:400px">
+			</div>
+
+		</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+			<script>
+		var slideIndex = [1,1];
+		var slideId = ["mySlides1","mySlides2"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+
+		function plusSlides(n, no) {
+		  showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+		  var i;
+		  var x = document.getElementsByClassName(slideId[no]);
+		  if (n > x.length) {slideIndex[no] = 1}
+		  if (n < 1) {slideIndex[no] = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";
+		  }
+		  x[slideIndex[no]-1].style.display = "block";
+		}
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
