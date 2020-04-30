@@ -21,13 +21,13 @@ img {vertical-align: middle;}
 
 a{
   text-decoration:none;
-  cursor: help;
+  cursor:zoom-in;
 }
 
 a:hover{
   color:white;
   /* cursor: grabbing; */
-  cursor: zoom-in;
+  /* cursor: zoom-in; */
 }
 
 a:visited {
@@ -45,6 +45,35 @@ a:visited:hover{
   bottom:10px;
 }
 
+.b-1{
+  font-weight: bold;
+  font-size: 200px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:-250px; */
+  /* bottom:1000px; */
+}
+
+.b-1 .next{
+  right:1220px;
+  left:10px;
+}
+
+
+.b-2{
+  font-weight: bold;
+  font-size: 400px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:-250px; */
+  /* bottom:1000px; */
+}
+
+.b-2 .next{
+  right:1150px;
+}
+
+
 
 .b-3{
   font-weight: bold;
@@ -57,6 +86,7 @@ a:visited:hover{
 
 .b-3 .next{
   right:1100px;
+  left:10px;
 }
 
 .b-4{
@@ -69,6 +99,19 @@ a:visited:hover{
 
 .b-4 .next{
   right:1040px;
+}
+
+.b-5{
+  font-size: 350px;
+  opacity: 0;
+  cursor: pointer;
+  /* top:-250px; */
+  /* bottom:1000px; */
+}
+
+.b-5 .next{
+  right:1180px;
+  left:10px;
 }
 
 .numbertext {
